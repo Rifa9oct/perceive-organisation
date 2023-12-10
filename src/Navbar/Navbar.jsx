@@ -5,8 +5,8 @@ const Navbar = () => {
 
     const navLinks = <>
         <li><HashLink smooth to="#events">Events</HashLink></li>
-        <li><HashLink smooth to="#highlights">Highlights</HashLink></li>
-        <li><HashLink smooth to="#contact">Contact</HashLink></li>
+        <li><HashLink smooth to="#services">Services</HashLink></li>
+        <li><HashLink smooth to="#contact">Contact Us</HashLink></li>
     </>
 
     return (

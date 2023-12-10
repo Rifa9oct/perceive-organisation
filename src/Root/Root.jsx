@@ -1,19 +1,16 @@
 import Navbar from "../Navbar/Navbar";
 import Events from "../Components/Events/Events";
-import Highlights from "../Components/Highlights/Highlights"
+import Services from "../Components/Services/Services"
 import Contact from "../Components/Contact/Contact";
-import Headroom from "react-headroom";
 import Banner from "../Components/Banner/Banner";
 
 const Root = () => {
     return (
         <div>
-            <Headroom>
-                <Navbar></Navbar>
-            </Headroom>
+            <Navbar></Navbar>
             <Banner></Banner>
             <Events></Events>
-            <Highlights></Highlights>
+            <Services></Services>
             <Contact></Contact>
         </div>
     );
